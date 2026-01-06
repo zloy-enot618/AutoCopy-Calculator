@@ -19,7 +19,7 @@ def copy(prosto):
     except NameError as n:
         print(f"\n{reg} - Error(s) is/are: {n}")
     except ImportError as im:
-        print(f"{reg} - Error(s) is/are: {im}")
+        print(f"\n{reg} - Error(s) is/are: {im}")
 reg = input("Your name:     ")
 while True:
     print(f"{reg}: type 1 for go it! [0 - guide!]")
